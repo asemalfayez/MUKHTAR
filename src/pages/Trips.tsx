@@ -21,7 +21,7 @@ const mockTrips = [
     rating: 4.8,
     reviews: 124,
     duration: "يوم كامل",
-    image: "/src/assets/petra-hero.jpg",
+    image: "/petra-hero.jpg",
     organizer: "أحمد السياحي",
     category: "ثقافي",
     location: "البتراء"
@@ -34,7 +34,7 @@ const mockTrips = [
     rating: 4.9,
     reviews: 89,
     duration: "يومين",
-    image: "/src/assets/wadi-rum.jpg",
+    image: "/wadi-rum.jpg",
     organizer: "سارة المغامرة",
     category: "مغامرة",
     location: "وادي رم"
@@ -47,7 +47,7 @@ const mockTrips = [
     rating: 4.7,
     reviews: 156,
     duration: "نصف يوم",
-    image: "/src/assets/dead-sea.jpg",
+    image: "/dead-sea.jpg",
     organizer: "محمد الاستجمام",
     category: "استجمام",
     location: "البحر الميت"
@@ -60,7 +60,7 @@ const mockTrips = [
     rating: 4.6,
     reviews: 98,
     duration: "يوم كامل",
-    image: "/src/assets/petra-hero.jpg",
+    image: "/petra-hero.jpg",
     organizer: "ليلى التاريخ",
     category: "تاريخي",
     location: "جرش"
@@ -73,7 +73,7 @@ const mockTrips = [
     rating: 4.5,
     reviews: 76,
     duration: "يوم",
-    image: "/src/assets/wadi-rum.jpg",
+    image: "/wadi-rum.jpg",
     organizer: "نادر المغامر",
     category: "مغامرة",
     location: "عجلون"
@@ -86,7 +86,7 @@ const mockTrips = [
     rating: 4.4,
     reviews: 112,
     duration: "يوم",
-    image: "/src/assets/dead-sea.jpg",
+    image: "/dead-sea.jpg",
     organizer: "هدى البحرية",
     category: "طبيعي",
     location: "العقبة"
@@ -99,7 +99,7 @@ const mockTrips = [
     rating: 4.7,
     reviews: 134,
     duration: "نصف يوم",
-    image: "/src/assets/wadi-rum.jpg",
+    image: "/wadi-rum.jpg",
     organizer: "رامي أدڤنشر",
     category: "مغامرة",
     location: "وادي الموجب"
@@ -112,7 +112,7 @@ const mockTrips = [
     rating: 4.3,
     reviews: 67,
     duration: "4 ساعات",
-    image: "/src/assets/petra-hero.jpg",
+    image: "/petra-hero.jpg",
     organizer: "أمجد المحلي",
     category: "ثقافي",
     location: "عمّان"
@@ -125,7 +125,7 @@ const mockTrips = [
     rating: 4.9,
     reviews: 145,
     duration: "ليلة",
-    image: "/src/assets/wadi-rum.jpg",
+    image: "/wadi-rum.jpg",
     organizer: "سارة المغامرة",
     category: "طبيعي",
     location: "وادي رم"

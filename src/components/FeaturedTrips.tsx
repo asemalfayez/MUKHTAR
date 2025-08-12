@@ -2,9 +2,8 @@ import { TripCard } from './TripCard';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import wadiRum from '@/assets/wadi-rum.jpg';
-import deadSea from '@/assets/dead-sea.jpg';
-import petraHero from '@/assets/petra-hero.jpg';
+
+
 
 interface FeaturedTripsProps {
   language: 'ar' | 'en';
@@ -29,7 +28,7 @@ export function FeaturedTrips({ language }: FeaturedTripsProps) {
   const trips = [
     {
       id: '1',
-      image: petraHero,
+      image: '/petra-hero.jpg',
       title: language === 'ar' ? 'رحلة البتراء الساحرة' : 'Magical Petra Journey',
       description: language === 'ar' ? 'استكشف عجائب البتراء الوردية مع دليل محلي خبير' : 'Explore the wonders of Rose Red Petra with an expert local guide',
       price: 85,
@@ -43,7 +42,7 @@ export function FeaturedTrips({ language }: FeaturedTripsProps) {
     },
     {
       id: '2',
-      image: wadiRum,
+      image: '/wadi-rum.jpg',
       title: language === 'ar' ? 'مغامرة وادي رم الصحراوية' : 'Wadi Rum Desert Adventure',
       description: language === 'ar' ? 'ليلة تحت النجوم في قلب الصحراء الأردنية' : 'A night under the stars in the heart of the Jordanian desert',
       price: 120,
@@ -57,7 +56,7 @@ export function FeaturedTrips({ language }: FeaturedTripsProps) {
     },
     {
       id: '3',
-      image: deadSea,
+      image: '/dead-sea.jpg',
       title: language === 'ar' ? 'تجربة البحر الميت المميزة' : 'Premium Dead Sea Experience',
       description: language === 'ar' ? 'استرخ واستمتع بالعلاج الطبيعي في البحر الميت' : 'Relax and enjoy natural therapy at the Dead Sea',
       price: 65,

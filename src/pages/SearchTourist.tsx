@@ -37,7 +37,7 @@ const SearchTourist = () => {
       groupSize: "8-12",
       rating: 4.8,
       reviews: 156,
-      image: "/src/assets/petra-hero.jpg",
+      image: "/petra-hero.jpg",
       organizer: "أحمد محمد",
       category: "الثقافة والتاريخ"
     },
@@ -50,7 +50,7 @@ const SearchTourist = () => {
       groupSize: "6-10",
       rating: 4.9,
       reviews: 203,
-      image: "/src/assets/wadi-rum.jpg",
+      image: "/wadi-rum.jpg",
       organizer: "سارة أحمد",
       category: "المغامرة والاستكشاف"
     },
@@ -63,7 +63,7 @@ const SearchTourist = () => {
       groupSize: "10-15",
       rating: 4.7,
       reviews: 89,
-      image: "/src/assets/dead-sea.jpg",
+      image: "/dead-sea.jpg",
       organizer: "محمد علي",
       category: "الطبيعة والاسترخاء"
     }

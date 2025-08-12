@@ -37,19 +37,19 @@ const ProfileTourist = () => {
       title: "رحلة البتراء الساحرة",
       date: "2024-02-15",
       rating: 5,
-      image: "/src/assets/petra-hero.jpg"
+      image: "/petra-hero.jpg"
     },
     {
       title: "مغامرة وادي رم",
       date: "2024-01-20",
       rating: 4,
-      image: "/src/assets/wadi-rum.jpg"
+      image: "/wadi-rum.jpg"
     },
     {
       title: "استرخاء البحر الميت",
       date: "2023-12-10",
       rating: 5,
-      image: "/src/assets/dead-sea.jpg"
+      image: "/dead-sea.jpg"
     }
   ];
 

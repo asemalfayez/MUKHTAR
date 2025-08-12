@@ -71,9 +71,9 @@ const TripDetails = ({ language, isDark }: TripDetailsProps) => {
     groupSize: "2-15 شخص",
     category: "ثقافي",
     images: [
-      "/src/assets/petra-hero.jpg",
-      "/src/assets/wadi-rum.jpg",
-      "/src/assets/dead-sea.jpg"
+      "/petra-hero.jpg",
+      "/wadi-rum.jpg",
+      "/dead-sea.jpg"
     ],
     organizer: {
       name: "أحمد السياحي",

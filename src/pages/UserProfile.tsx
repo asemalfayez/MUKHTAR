@@ -37,7 +37,7 @@ const UserProfile = () => {
       guests: 2,
       total: 300,
       status: "مؤكد",
-      image: "/src/assets/petra-hero.jpg"
+      image: "/petra-hero.jpg"
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const UserProfile = () => {
       guests: 4,
       total: 800,
       status: "في الانتظار",
-      image: "/src/assets/wadi-rum.jpg"
+      image: "/wadi-rum.jpg"
     },
     {
       id: 3,
@@ -57,7 +57,7 @@ const UserProfile = () => {
       guests: 1,
       total: 120,
       status: "مكتمل",
-      image: "/src/assets/dead-sea.jpg"
+      image: "/dead-sea.jpg"
     }
   ];
 

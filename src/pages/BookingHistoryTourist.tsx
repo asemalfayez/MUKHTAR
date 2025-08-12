@@ -21,7 +21,7 @@ const BookingHistoryTourist = () => {
       guests: 4,
       totalCost: 1400,
       status: "مؤكد",
-      image: "/src/assets/petra-hero.jpg",
+      image: "/petra-hero.jpg",
       location: "البتراء، الأردن",
       rating: 0
     },
@@ -33,7 +33,7 @@ const BookingHistoryTourist = () => {
       guests: 2,
       totalCost: 560,
       status: "قيد الانتظار",
-      image: "/src/assets/wadi-rum.jpg",
+      image: "/wadi-rum.jpg",
       location: "وادي رم، الأردن",
       rating: 0
     },
@@ -45,7 +45,7 @@ const BookingHistoryTourist = () => {
       guests: 3,
       totalCost: 360,
       status: "مكتمل",
-      image: "/src/assets/dead-sea.jpg",
+      image: "/dead-sea.jpg",
       location: "البحر الميت، الأردن",
       rating: 5
     },
@@ -57,7 +57,7 @@ const BookingHistoryTourist = () => {
       guests: 2,
       totalCost: 240,
       status: "مكتمل",
-      image: "/src/assets/petra-hero.jpg",
+      image: "/petra-hero.jpg",
       location: "عمان، الأردن",
       rating: 4
     },
@@ -69,7 +69,7 @@ const BookingHistoryTourist = () => {
       guests: 5,
       totalCost: 850,
       status: "ملغي",
-      image: "/src/assets/wadi-rum.jpg",
+      image: "/wadi-rum.jpg",
       location: "العقبة، الأردن",
       rating: 0
     }

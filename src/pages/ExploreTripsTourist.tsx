@@ -32,15 +32,15 @@ const ExploreTripsTourist = ({ language, isDark }: ExploreTripsTouristProps) => 
   const locations = ["البتراء", "وادي رم", "البحر الميت", "عمان", "العقبة", "جرش", "عجلون", "وادي الموجب"];
 
   const mockTrips = [
-    { id: 1, title: "رحلة استكشاف البتراء", description: "اكتشف عجائب البتراء مع مرشد محلي خبير", price: 150, rating: 4.8, reviews: 124, duration: "يوم كامل", image: "/src/assets/petra-hero.jpg", organizer: "أحمد السياحي", category: "ثقافي", location: "البتراء" },
-    { id: 2, title: "مغامرة في وادي رم", description: "تخييم تحت النجوم في الصحراء الساحرة", price: 200, rating: 4.9, reviews: 89, duration: "يومين", image: "/src/assets/wadi-rum.jpg", organizer: "سارة المغامرة", category: "مغامرة", location: "وادي رم" },
-    { id: 3, title: "جولة البحر الميت", description: "استرخاء وعلاج طبيعي في البحر الميت", price: 120, rating: 4.7, reviews: 156, duration: "نصف يوم", image: "/src/assets/dead-sea.jpg", organizer: "محمد الاستجمام", category: "استجمام", location: "البحر الميت" },
-    { id: 4, title: "جولة آثار جرش", description: "تعرف على التاريخ الروماني العريق في جرش", price: 140, rating: 4.6, reviews: 98, duration: "يوم كامل", image: "/src/assets/petra-hero.jpg", organizer: "ليلى التاريخ", category: "تاريخي", location: "جرش" },
-    { id: 5, title: "مغامرة مغارات عجلون", description: "تسلق واستكشاف مغارات عجلون الساحرة", price: 180, rating: 4.5, reviews: 76, duration: "يوم", image: "/src/assets/wadi-rum.jpg", organizer: "نادر المغامر", category: "مغامرة", location: "عجلون" },
-    { id: 6, title: "استرخاء في شواطئ العقبة", description: "يوم ممتع على البحر الأحمر مع أنشطة بحرية", price: 170, rating: 4.4, reviews: 112, duration: "يوم", image: "/src/assets/dead-sea.jpg", organizer: "هدى البحرية", category: "طبيعي", location: "العقبة" },
-    { id: 7, title: "مسار وادي الموجب", description: "هايكينغ ومغامرة مائية في وادي الموجب", price: 160, rating: 4.7, reviews: 134, duration: "نصف يوم", image: "/src/assets/wadi-rum.jpg", organizer: "رامي أدڤنشر", category: "مغامرة", location: "وادي الموجب" },
-    { id: 8, title: "جولة وسط مدينة عمّان", description: "تذوق المأكولات الشعبية وزيارة المواقع التاريخية", price: 110, rating: 4.3, reviews: 67, duration: "4 ساعات", image: "/src/assets/petra-hero.jpg", organizer: "أمجد المحلي", category: "ثقافي", location: "عمّان" },
-    { id: 9, title: "سفاري نجوم وادي رم", description: "مشاهدة مجرة درب التبانة والتخييم الصحراوي", price: 220, rating: 4.9, reviews: 145, duration: "ليلة", image: "/src/assets/wadi-rum.jpg", organizer: "سارة المغامرة", category: "طبيعي", location: "وادي رم" },
+    { id: 1, title: "رحلة استكشاف البتراء", description: "اكتشف عجائب البتراء مع مرشد محلي خبير", price: 150, rating: 4.8, reviews: 124, duration: "يوم كامل", image: "/petra-hero.jpg", organizer: "أحمد السياحي", category: "ثقافي", location: "البتراء" },
+    { id: 2, title: "مغامرة في وادي رم", description: "تخييم تحت النجوم في الصحراء الساحرة", price: 200, rating: 4.9, reviews: 89, duration: "يومين", image: "/wadi-rum.jpg", organizer: "سارة المغامرة", category: "مغامرة", location: "وادي رم" },
+    { id: 3, title: "جولة البحر الميت", description: "استرخاء وعلاج طبيعي في البحر الميت", price: 120, rating: 4.7, reviews: 156, duration: "نصف يوم", image: "/dead-sea.jpg", organizer: "محمد الاستجمام", category: "استجمام", location: "البحر الميت" },
+    { id: 4, title: "جولة آثار جرش", description: "تعرف على التاريخ الروماني العريق في جرش", price: 140, rating: 4.6, reviews: 98, duration: "يوم كامل", image: "/petra-hero.jpg", organizer: "ليلى التاريخ", category: "تاريخي", location: "جرش" },
+    { id: 5, title: "مغامرة مغارات عجلون", description: "تسلق واستكشاف مغارات عجلون الساحرة", price: 180, rating: 4.5, reviews: 76, duration: "يوم", image: "/wadi-rum.jpg", organizer: "نادر المغامر", category: "مغامرة", location: "عجلون" },
+    { id: 6, title: "استرخاء في شواطئ العقبة", description: "يوم ممتع على البحر الأحمر مع أنشطة بحرية", price: 170, rating: 4.4, reviews: 112, duration: "يوم", image: "/dead-sea.jpg", organizer: "هدى البحرية", category: "طبيعي", location: "العقبة" },
+    { id: 7, title: "مسار وادي الموجب", description: "هايكينغ ومغامرة مائية في وادي الموجب", price: 160, rating: 4.7, reviews: 134, duration: "نصف يوم", image: "/wadi-rum.jpg", organizer: "رامي أدڤنشر", category: "مغامرة", location: "وادي الموجب" },
+    { id: 8, title: "جولة وسط مدينة عمّان", description: "تذوق المأكولات الشعبية وزيارة المواقع التاريخية", price: 110, rating: 4.3, reviews: 67, duration: "4 ساعات", image: "/petra-hero.jpg", organizer: "أمجد المحلي", category: "ثقافي", location: "عمّان" },
+    { id: 9, title: "سفاري نجوم وادي رم", description: "مشاهدة مجرة درب التبانة والتخييم الصحراوي", price: 220, rating: 4.9, reviews: 145, duration: "ليلة", image: "/wadi-rum.jpg", organizer: "سارة المغامرة", category: "طبيعي", location: "وادي رم" },
   ];
 
   // تطبيق الفلاتر على الرحلات

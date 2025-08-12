@@ -23,7 +23,7 @@ const FavoritesTourist = ({ language, isDark }: FavoritesTouristProps) => {
       groupSize: "8-12",
       rating: 4.8,
       reviews: 156,
-      image: "/src/assets/petra-hero.jpg",
+      image: "/petra-hero.jpg",
       organizer: "أحمد محمد",
       location: "البتراء، الأردن",
       addedDate: "2024-02-20"
@@ -37,7 +37,7 @@ const FavoritesTourist = ({ language, isDark }: FavoritesTouristProps) => {
       groupSize: "6-10",
       rating: 4.9,
       reviews: 203,
-      image: "/src/assets/wadi-rum.jpg",
+      image: "/wadi-rum.jpg",
       organizer: "سارة أحمد",
       location: "وادي رم، الأردن",
       addedDate: "2024-02-15"
@@ -51,7 +51,7 @@ const FavoritesTourist = ({ language, isDark }: FavoritesTouristProps) => {
       groupSize: "10-15",
       rating: 4.7,
       reviews: 89,
-      image: "/src/assets/dead-sea.jpg",
+      image: "/dead-sea.jpg",
       organizer: "محمد علي",
       location: "البحر الميت، الأردن",
       addedDate: "2024-01-30"
